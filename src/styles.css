@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#video {
+  transform: rotateY(180deg);
+}
+#camera {
+  padding: 10px;
+}
+#contentHolder {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 10px;
+}
+#btn_snap {
+  margin: 0 auto;
+  border: 1px solid #f0f0f0;
+  background: #5cacee;
+  color: #fff;
+  width: 100px;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 8px;
+  text-align: center;
+  cursor: pointer;
+  cursor: pointer;
+  /*禁止选择*/
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently not supported by any browser */
+}
+#imgBoxxx {
+  width: 200px;
+  margin: 60px 20px 20px;
+}
